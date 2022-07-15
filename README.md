@@ -31,3 +31,7 @@ service = Service(executable_path=ChromeDriverManager().install())
 ```
 driver = webdriver.Chrome(service=service)
 ```
+We need to add webdriver-manager package
+```
+pip install webdriver-manager
+```
